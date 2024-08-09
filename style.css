@@ -1,3 +1,9 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
 .unique{
     background: linear-gradient(135deg, #f0eae0, #d96b21, #000);
     padding: 20px;
@@ -43,4 +49,40 @@ display: block;
 width: 0;
 height: 2px;
 background: #ffeb3b;
+}
+
+.main-nav ul li a:hover{
+    color: #d96b21;
+}
+
+.hero-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(135deg, #f0eae0, #d96b21, #000);
+    padding: 50px 20px;
+    color: #fff;
+}
+
+.hero-content{
+    max-width: 50%;
+}
+
+.hero-content h1{
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero-content p{
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+.cta-button{
+    background-color: #d96b21;
+    color: #fff;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
 }
