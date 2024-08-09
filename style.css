@@ -1,5 +1,5 @@
 body{
-    font-family: Arial, sans-serif;
+    font-family: 'Poppings', sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -85,4 +85,45 @@ background: #ffeb3b;
     font-weight: bold;
     border-radius: 5px;
     transition: background-color 0.3s ease;
+}
+
+.cta-button:hover{
+  background-color: #000;
+}
+
+.hero-image img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.introduction {
+    padding: 50px;
+    background-color: #f7f7f7;
+    text-align: center;
+}
+
+.introduction h2{
+    font-size: 2em;
+    margin-bottom: 20px;
+
+}
+.intro-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.introduction .icon img{
+    width: 80px;
+    height: auto;
+    max-width: 100%;
+
+}
+
+.introduction p{
+    max-width: 600px;
+    font-size: 1.2em;
+    line-height: 1.5em;
+    color: #333;
 }
