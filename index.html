@@ -7,34 +7,41 @@
     <link href="style.css" rel="stylesheet"/>
 </head>
 <body>
-    <header class="unique">
-        <div class="logo">
+    <!--Header Section-->
+    <header class="header">
+        <div class="container">
             <h1>Black & Son phone Repairs</h1>
             <img src="" alt="">
         </div>
-        <nav class="main-nav">
+        <nav>
             <ul>
-                <li><a href="index.html">Home</a> </li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="#home">Home</a> </li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
 
             </ul>
         </nav>
     </header>
-    <section class="hero-section">
-        <div class="hero-content">
-            <h1>Reliable Phone Repair Services</h1>
+    <!--Hero Section-->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-text">
+                <h2>Reliable Phone Repair Services</h2>
             <p>Quick, Safe, and Reliable! We bring your phone back to life</p>
-            <a href="contact.html" class="cta-button">Contact Us</a>
+            <a href="#contact" class="btn">Contact Us</a>
         </div>
         <div class="hero-image"><img src="images/phone-repair.jpg" alt="Phone Repair">
+    </div>
+        
+        
         </div>
     </section>
-
-    <section class="introduction">
-        <h2>About Us</h2>
-        <div class="intro-content">
+<!--About Section-->
+    <section id="about" class="about">
+        
+        <div class="container">
+            <h2>About Us</h2>
             <div class="icon">
                 <img src="images/repairing.png" alt="introduction icon">
             </div>
@@ -47,10 +54,72 @@
                 <li>Charging Port Repairs</li>
                 <li>Software Updates</li>
             </ul>
+        
         </div>
         <div class="intro-image"></div>
 
     </section>
+
+    <!--Services Section-->
+    <section id="services" class="services">
+        <div class="container">
+            <h2>
+                Our Services
+            </h2>
+            <div class="service-list">
+                <div class="service-item">
+                    <h3>
+                        Screen Replacements
+                    </h3>
+                    <p>We fix cracked screens and make your phone look brand new.</p>
+
+                </div>
+                <div class="service-item">
+                    <h3>
+                        Battery Replacements
+                    </h3>
+                    <p>Is your phone Battery Draining too fast? We can replace it for you</p>
+                </div>
+                <div class="service-item">
+                    <h3>Software Updates</h3>
+                    <p>Keep your phone up to date with the latest software.</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+     <!--Contact Section-->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>Have a question or need a repair? Get in touch with us today!</p>
+            <form action="#" method="post">
+                <label for="name">
+                    Name
+                </label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">message</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Send Message</button>
+                
+            </form>
+            <p>Or reach us at:</p>
+            <p><strong>Phone:</strong >+233506884238</p>
+                <p><strong>Email:</strong>emmaaddo5263@gmail.com</p>
+        </div>
+    </section>
+
+    <!--Footer Section-->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Black & Son Phone Repairs. All rights reserved</p>
+        </div>
+    </footer>
 </body>
 
 </html>
