@@ -27,22 +27,15 @@ body{
     padding-left: 20px;
     display: inline-block;
 }
-
-
-
-
 .header nav ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
     display: flex;
 }
-
 .header nav ul li{
-    margin-left: 30px;
-    
+    margin-left: 30px;   
 }
-
 .header ul li a{
     color: #ff6600;
     text-decoration: none;
@@ -151,8 +144,6 @@ background: #ffeb3b;
     margin: 0 auto 20px;
 
 }
-
-
 
 /*Services Section*/
 .service{
